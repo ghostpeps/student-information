@@ -1,6 +1,6 @@
 from settings import is_logged_in
 
-import streamlit
+import streamlit as st
 
 def home(is_logged_in):
     if is_logged_in is True:
